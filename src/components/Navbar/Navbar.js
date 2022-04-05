@@ -15,7 +15,8 @@ const Navbar = () => {
     ];
     return (
         <nav className='bg-indigo-200'>
-            <div onClick={()=>setOpen(!open)} className='w-6 h-6 md:hidden'>{open ? <XIcon></XIcon>:<MenuIcon></MenuIcon>}
+            <div onClick={()=>setOpen(!open)} className='w-6 h-6 md:hidden'>
+                {open ? <XIcon></XIcon>:<MenuIcon></MenuIcon>}
                 
             </div>
             <ul className={`md:flex justify-center duration-500 ease-in absolute bg-indigo-200 w-full md:static ${open ? 'top-6':'top-[-120px]'}`}>
