@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header></Header>
      
-      <h1>Welcome to my pricing club</h1>
+      <h1 className='text-5xl text-yellow-700'>Welcome to my pricing club</h1>
       <Pricing></Pricing>
     </div>
   );
